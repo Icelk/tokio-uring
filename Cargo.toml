@@ -1,6 +1,6 @@
 [package]
-name = "tokio-uring"
-version = "0.4.0"
+name = "kvarn-tokio-uring"
+version = "0.4.0-alpha1"
 authors = ["Tokio Contributors <team@tokio.rs>"]
 edition = "2018"
 readme = "README.md"
@@ -9,7 +9,7 @@ documentation = "https://docs.rs/tokio-uring/0.4.0/tokio-uring"
 repository = "https://github.com/tokio-rs/tokio-uring"
 homepage = "https://tokio.rs"
 description = """
-io-uring support for the Tokio asynchronous runtime.
+Temporary Kvarn fork: io-uring support for the Tokio asynchronous runtime.
 """
 categories = ["asynchronous", "network-programming"]
 keywords = ["async", "fs", "io-uring"]

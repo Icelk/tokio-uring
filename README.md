@@ -1,5 +1,7 @@
 # tokio-uring
 
+> Temporary Kvarn fork to be removed when [this PR](https://github.com/tokio-rs/tokio-uring/pull/275) is merged.
+
 This crate provides [`io-uring`] for [Tokio] by exposing a new Runtime that is
 compatible with Tokio but also can drive [`io-uring`]-backed resources. Any
 library that works with [Tokio] also works with `tokio-uring`. The crate
